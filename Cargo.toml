@@ -1,0 +1,10 @@
+[package]
+name = "notifications_zome_trait"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hc_zome_traits = { git = "https://github.com/holochain-open-dev/zome-traits", branch = "main" }
+hdk = "0.5"
+holochain_serialized_bytes = "*"
+serde = "1"
