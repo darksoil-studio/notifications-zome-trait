@@ -5,8 +5,11 @@ use hdk::prelude::*;
 pub struct Notification {
     pub title: String,
     pub body: String,
-    pub icon_src: String,
+    pub large_body: Option<String>,
+    pub summary: Option<String>,
     pub group: Option<String>,
+    pub group_summary: bool,
+    pub icon_src: String,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
