@@ -7,7 +7,6 @@ pub struct Notification {
     pub body: String,
     pub icon_src: String,
     pub group: Option<String>,
-    pub url_path_to_navigate_to_on_click: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
