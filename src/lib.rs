@@ -9,7 +9,9 @@ pub struct Notification {
     pub summary: Option<String>,
     pub group: Option<String>,
     pub group_summary: bool,
-    pub icon_src: String,
+    pub icon: Option<String>,
+    pub large_icon: Option<String>,
+    pub icon_color: Option<String>,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
